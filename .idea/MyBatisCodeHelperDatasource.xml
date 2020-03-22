@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generateService" value="true" />
+        <option name="javaMapperPackage" value="com.itsz.springcloud.alibaba.seata.storage.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/seata-storage/src/main/java" />
+        <option name="javaModelPackage" value="com.itsz.springcloud.alibaba.seata.storage.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/seata-storage/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="seata-account" />
+        <option name="lombokAllArgConstructor" value="true" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="lombokNoArgsConstructor" value="true" />
+        <option name="modelAddToString" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="seata-account">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.itsz.springcloud.alibaba.seata.storage.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/seata-storage/src/main/java" />
+                  <option name="javaModelPacakge" value="com.itsz.springcloud.alibaba.seata.storage.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/seata-storage/src/main/java" />
+                  <option name="javaServicePackage" value="com.itsz.springcloud.alibaba.seata.storage.service" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/seata-storage/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/seata-storage/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="seata-account:t_account">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Account" />
+                  <option name="moduleName" value="seata-account" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="seata-order:t_order">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Order" />
+                  <option name="moduleName" value="seata-account" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="seata-storage:t_storage">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TStorage" />
+                  <option name="moduleName" value="seata-account" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/seata-storage/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

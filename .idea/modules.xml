@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/seata-account/seata-account.iml" filepath="$PROJECT_DIR$/seata-account/seata-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-common/seata-comment.iml" filepath="$PROJECT_DIR$/seata-common/seata-comment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-common/seata-common.iml" filepath="$PROJECT_DIR$/seata-common/seata-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-consumer/seata-comsumer.iml" filepath="$PROJECT_DIR$/seata-consumer/seata-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-consumer/seata-consumer.iml" filepath="$PROJECT_DIR$/seata-consumer/seata-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-order/seata-order.iml" filepath="$PROJECT_DIR$/seata-order/seata-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage/seata-storage.iml" filepath="$PROJECT_DIR$/seata-storage/seata-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-alibaba-seata.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-alibaba-seata.iml" />
+    </modules>
+  </component>
+</project>
