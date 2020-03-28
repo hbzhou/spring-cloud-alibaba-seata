@@ -100,4 +100,9 @@
         <include refid="Base_Column_List"></include>
         from t_storage
     </select>
+    <select id="findByProductId" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"></include>
+        from t_storage where product_id = #{productId}
+    </select>
 </mapper>

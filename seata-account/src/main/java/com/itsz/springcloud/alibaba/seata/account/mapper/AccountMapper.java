@@ -19,4 +19,6 @@ public interface AccountMapper {
     int updateByPrimaryKey(Account record);
 
     List<Account> selectAll();
+
+    Account findByUserId(long userId);
 }

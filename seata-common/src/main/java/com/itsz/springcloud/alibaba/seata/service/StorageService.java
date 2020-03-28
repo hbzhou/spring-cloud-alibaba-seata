@@ -24,4 +24,6 @@ public interface StorageService {
     int updateByPrimaryKey(Storage record);
 
     List<Storage> selectAll();
+
+    Storage findByProductId(long productId);
 }

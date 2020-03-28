@@ -25,4 +25,5 @@ public interface AccountService {
 
     List<Account> selectAll();
 
+    Account findByUserId(long userId);
 }

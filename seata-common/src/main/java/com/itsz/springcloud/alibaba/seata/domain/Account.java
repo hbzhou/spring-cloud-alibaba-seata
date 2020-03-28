@@ -18,15 +18,15 @@ public class Account {
     /**
     * 总额度
     */
-    private Integer total;
+    private long total;
 
     /**
     * 已用额度
     */
-    private Integer used;
+    private long used;
 
     /**
     * 剩余额度
     */
-    private Integer residue;
+    private long residue;
 }

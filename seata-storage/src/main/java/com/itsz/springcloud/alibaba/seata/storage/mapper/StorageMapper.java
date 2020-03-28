@@ -20,4 +20,6 @@ public interface StorageMapper {
     int updateByPrimaryKey(Storage record);
 
     List<Storage> selectAll();
+
+    Storage findByProductId(Long productId);
 }

@@ -46,4 +46,9 @@ public class StorageServiceImpl implements StorageService {
     public List<Storage> selectAll() {
         return storageMapper.selectAll();
     }
+
+    @Override
+    public Storage findByProductId(long productId) {
+        return storageMapper.findByProductId(productId);
+    }
 }

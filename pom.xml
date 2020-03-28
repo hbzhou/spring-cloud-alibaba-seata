@@ -14,7 +14,6 @@
         <module>seata-account</module>
         <module>seata-storage</module>
         <module>seata-common</module>
-        <module>seata-consumer</module>
     </modules>
 
     <!--统一管理jar包和版本-->

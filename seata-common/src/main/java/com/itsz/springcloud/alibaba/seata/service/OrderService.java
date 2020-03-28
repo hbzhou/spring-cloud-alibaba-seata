@@ -1,6 +1,7 @@
 package com.itsz.springcloud.alibaba.seata.service;
 
 import com.itsz.springcloud.alibaba.seata.domain.Order;
+import com.itsz.springcloud.alibaba.seata.dto.OrderReqDto;
 
 import java.util.List;
 
@@ -23,4 +24,6 @@ public interface OrderService {
     int updateByPrimaryKey(Order record);
 
     List<Order> selectAll();
+
+    void createOrder(OrderReqDto request);
 }

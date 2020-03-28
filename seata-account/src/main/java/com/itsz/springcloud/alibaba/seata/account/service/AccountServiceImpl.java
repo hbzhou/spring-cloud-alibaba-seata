@@ -50,4 +50,9 @@ public class AccountServiceImpl implements AccountService {
         return accountMapper.selectAll();
     }
 
+    @Override
+    public Account findByUserId(long userId) {
+        return accountMapper.findByUserId(userId);
+    }
+
 }
