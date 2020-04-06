@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: seata-gateway-application
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  192.168.33.10:8848
+    gateway:
+      routes:
+        - id: seata-account
+          uri: lb://seata-account-application
+          predicates:
+             - Path=/account/**
+        - id: seata-order
+          uri: lb://seata-order-application
+          predicates:
+            - Path= /order/**
+        - id: seata-storage
+          uri: lb://seata-storage-application
+          predicates:
+            - Path= /storage/**
+server:
+  port: 8795
+
+
+
+
