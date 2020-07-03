@@ -8,6 +8,10 @@ spring:
     alibaba:
       seata:
         tx-service-group: fsp_tx_group
+    sentinel:
+      transport:
+        dashboard: 192.168.33.10:8080
+        port: 8719
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,3 +40,9 @@ dubbo:
     loadbalance: roundrobin
 server:
   port: 9002
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -8,6 +8,18 @@ spring:
     alibaba:
       seata:
         tx-service-group: fsp_tx_group
+    sentinel:
+      transport:
+        dashboard: 192.168.33.10:8080
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 192.168.33.10:8848
+            dataId: ${spring.application.name}
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -38,3 +50,9 @@ dubbo:
     address: nacos://192.168.33.10:8848
   provider:
     loadbalance: roundrobin
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
